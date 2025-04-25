@@ -1,0 +1,77 @@
+
+body{
+    background: #222;
+}
+.card{
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    text-align: center;
+    width: 280px;
+    margin: 50px 100px 0px 500px;
+    padding: 40px;
+    border-radius: 30px;
+    color: #fff;
+}
+.seacher{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.seacher input{
+    border-radius: 15px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    outline: 0px;
+    margin-top: -20px;
+    width: 250px;
+}
+.seacher button{
+    border: 0px;
+    outline: 0px;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: -30px;
+}
+.seacher button img{
+    width: 19px;
+    
+}
+.weather_icon{
+    width: 170px;
+    height: 150px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -55px;
+}
+.details{
+     display: flex;   
+     align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.weather{
+    display: none;
+}
